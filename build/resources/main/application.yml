@@ -1,0 +1,17 @@
+server:
+  port: 3038
+
+spring.jpa:
+  database: POSTGRESQL
+  hibernate.ddl-auto: update
+  show-sql: true
+
+spring.datasource:
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/relationships
+  username: postgres
+  password: 1111111111
+spring:
+  sql:
+    init:
+      platform: postgres
